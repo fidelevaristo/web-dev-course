@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Modulo di Registrazione Utente</title>
+</head>
+<body>
+
+    <h1>Modulo di Registrazione Utente</h1>
+
+    <form action="#" method="POST">
+        <div>
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+        <div>
+            <label for="dob">Data di Nascita:</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+
+        <fieldset>
+            <legend>Genere:</legend>
+            <label><input type="radio" name="genere" value="Maschio"> Maschio</label>
+            <label><input type="radio" name="genere" value="Femmina"> Femmina</label>
+            <label><input type="radio" name="genere" value="Altro"> Altro</label>
+        </fieldset>
+
+        <div>
+            <label for="colore">Colore Preferito:</label>
+            <input type="color" id="colore" name="colore" value="#007acc">
+        </div>
+
+        <div>
+            <label for="lingue">Lingue Parlate:</label>
+            <select id="lingue" name="lingue" multiple>
+                <option value="italiano">Italiano</option>
+                <option value="inglese">Inglese</option>
+                <option value="francese">Francese</option>
+                <option value="spagnolo">Spagnolo</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="descrizione">Descrizione Personale:</label>
+            <textarea id="descrizione" name="descrizione" rows="4" cols="50"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Invia Registrazione</button>
+        </div>
+    </form>
+
+</body>
+</html>
