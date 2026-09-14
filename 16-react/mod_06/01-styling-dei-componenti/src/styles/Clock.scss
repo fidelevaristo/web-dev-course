@@ -1,0 +1,23 @@
+.clock {
+  width: fit-content;
+  padding: 26px 34px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #020617, #1e293b);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  box-shadow: 0 24px 70px rgba(15, 23, 42, 0.6);
+
+  &__label {
+    margin: 0 0 8px;
+    color: #94a3b8;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+  }
+
+  &__time {
+    margin: 0;
+    font-size: 44px;
+    color: #38bdf8;
+    font-variant-numeric: tabular-nums;
+  }
+}
