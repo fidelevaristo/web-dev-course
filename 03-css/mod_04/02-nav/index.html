@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Navbar Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="#" class="brand">Navbar</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Link</a></li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link dropdown">Dropdown <span class="arrow">&#x25BC;</span></a>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="nav-btn-disabled" disabled>Disabled</button>
+                </li>
+            </ul>
+        </div>
+
+        <form class="search-form">
+            <input type="search" placeholder="Search" aria-label="Search" class="search-input">
+            <button type="submit" class="search-button">Search</button>
+        </form>
+    </nav>
+
+</body>
+</html>
