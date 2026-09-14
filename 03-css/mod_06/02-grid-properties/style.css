@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+}
+
+.grid-complex {
+    display: grid;
+    grid-template-columns: 280px 280px 1fr;
+    grid-template-rows: 120px 280px 150px;
+    gap: 30px;
+    height: 100vh;
+    padding: 0;
+}
+
+.area-green {
+    grid-column: 1 / -1;
+    background-color: #b7fcd2;
+    padding: 30px;
+    font-size: 1.1rem;
+}
+
+.area-yellow {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: #fefec1;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.area-red {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #ffb5bd;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.area-blue {
+    grid-column: 3;
+    grid-row: 2 / span 2;
+    background-color: #bde1ff;
+    padding: 30px;
+    font-size: 1.1rem;
+}
+
+.area-orange {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    background-color: #fed7b6;
+    padding: 30px;
+    font-size: 1.1rem;
+}
+
+.area-title {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 180px;
+    margin: 0 auto;
+}
+
+.card-box {
+    background-color: #ffffff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
