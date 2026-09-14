@@ -1,0 +1,9 @@
+import { Welcome } from "./components/Welcome";
+
+export function App() {
+  return (
+    <div>
+      <Welcome name="John" age={25} />
+    </div>
+  );
+}
