@@ -1,4 +1,4 @@
-﻿# Web Development Course - Develhope
+# Web Development Course - Develhope
 
 Esercizi e progetti del corso di Web Development di Develhope, realizzati da Fidel Vicente Evaristo.
 
@@ -11,8 +11,8 @@ Il percorso copre lo sviluppo frontend dalle basi di HTML, CSS e JavaScript fino
 | # | Modulo | Video | Esercizi | Stato |
 | :-: | :--- | :-: | :-: | :-: |
 | 01 | Introduzione ai corsi Develhope | 5 | 0/0 | Completato |
-| 02 | HTML | 26 | 13/13 | In attesa di caricamento |
-| 03 | CSS | 36 | 12/12 | In attesa di caricamento |
+| 02 | HTML | 26 | 13/13 | Completato e organizzato |
+| 03 | CSS | 36 | 12/12 | Completato e organizzato |
 | 04 | Sistemi di controllo versione e come usarli: Git | 30 | 6/6 | In attesa di caricamento |
 | 05 | Feedback 1 | 0 | 0/0 | Completato |
 | 06 | JavaScript Basics | 27 | 54/54 | In attesa di caricamento |
@@ -42,6 +42,20 @@ Il percorso copre lo sviluppo frontend dalle basi di HTML, CSS e JavaScript fino
 ---
 
 ## Contenuto dei moduli pratici
+
+### [02-html](./02-html/)
+- mod_01: struttura di base, metadati head e Open Graph, tag testuali semantici, repliche di layout e tabelle dati con somme.
+- mod_02: grafica vettoriale SVG (inline ed esterna), tag audio con controlli nativi, scheletro semantico di navbar e card.
+- mod_03: form complessi con molteplici tipi di input, raggruppamenti con optgroup, validazione client-side nativa (attributi pattern e required) e layout blog con articolo e footer.
+
+### [03-css](./03-css/)
+- mod_01: cascata, specificita ed ereditarieta con valori inherit, initial e unset.
+- mod_02: pseudo-classi, pseudo-elementi (drop cap, quote generate) e tabelle con righe alternate e allineamenti numerici.
+- mod_03: custom properties (variabili CSS) per la gestione centralizzata di colori e dimensioni.
+- mod_04: layout a componenti: card stile Bootstrap e navbar scura orizzontale.
+- mod_05: flexbox: sidebar a piena altezza con transizioni e layout a colonne con pesi flessibili.
+- mod_06: CSS grid: griglie a colonne e layout bidimensionali asimmetrici.
+- mod_07: responsive design e media queries: menu ad hamburger per schermi inferiori a 768px e griglia di card social adattiva (desktop a 3 colonne, tablet a 2 colonne, mobile a colonna singola).
 
 ### [08-js-dom](./08-js-dom/)
 - mod_01:
