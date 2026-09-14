@@ -16,7 +16,7 @@ Il percorso copre lo sviluppo frontend dalle basi di HTML, CSS e JavaScript fino
 | 04 | Sistemi di controllo versione e come usarli: Git | 30 | 6/6 | In attesa di caricamento |
 | 05 | Feedback 1 | 0 | 0/0 | Completato |
 | 06 | JavaScript Basics | 27 | 54/54 | Completato e organizzato |
-| 07 | JavaScript Advanced | 14 | 38/38 | In attesa di caricamento |
+| 07 | JavaScript Advanced | 14 | 38/38 | Completato e organizzato |
 | 08 | JavaScript DOM | 8 | 8/8 | Completato e organizzato |
 | 09 | Valuta la tua esperienza! 1 | 0 | 0/0 | Completato |
 | 10 | Career and Placement I | 17 | 0/2 | In attesa di caricamento |
@@ -64,6 +64,10 @@ Il percorso copre lo sviluppo frontend dalle basi di HTML, CSS e JavaScript fino
 - mod_05: oggetti, accesso e iterazione per chiavi con for...in, passaggio per valore vs riferimento e tecniche di clonazione superficiale e profonda, Object.freeze, funzioni costruttrici e oggetti nidificati.
 - mod_06: array, indicizzazione, lunghezza, gestione di indici out of bounds, metodi mutabili e immutabili (push, pop, unshift, join, splice).
 - mod_07: esercizi di sintesi avanzata su array di oggetti, filtraggio e algoritmi (calcolo di numeri primi, estrazione di chiavi filtrate, aggregazioni statistiche su collezioni di dati).
+
+### [07-javascript-advanced](./07-javascript-advanced/)
+- mod_01: metodi iterativi avanzati per array (filter, find, every, forEach, map, reduce), template literals, destrutturazione di oggetti piani ed anidnati, destrutturazione di array, rest parameters e spread operator.
+- mod_02: programmazione asincrona: timer con setTimeout e setInterval, funzioni di ordine superiore con callback e pattern di gestione errori, Promises (creazione, chaining, promisification, gestione concorrente con Promise.all), e sintassi moderna async/await con blocchi try...catch.
 
 ### [08-js-dom](./08-js-dom/)
 - mod_01:
