@@ -15,7 +15,7 @@ Il percorso copre lo sviluppo frontend dalle basi di HTML, CSS e JavaScript fino
 | 03 | CSS | 36 | 12/12 | Completato e organizzato |
 | 04 | Sistemi di controllo versione e come usarli: Git | 30 | 6/6 | In attesa di caricamento |
 | 05 | Feedback 1 | 0 | 0/0 | Completato |
-| 06 | JavaScript Basics | 27 | 54/54 | In attesa di caricamento |
+| 06 | JavaScript Basics | 27 | 54/54 | Completato e organizzato |
 | 07 | JavaScript Advanced | 14 | 38/38 | In attesa di caricamento |
 | 08 | JavaScript DOM | 8 | 8/8 | Completato e organizzato |
 | 09 | Valuta la tua esperienza! 1 | 0 | 0/0 | Completato |
@@ -56,6 +56,14 @@ Il percorso copre lo sviluppo frontend dalle basi di HTML, CSS e JavaScript fino
 - mod_05: flexbox: sidebar a piena altezza con transizioni e layout a colonne con pesi flessibili.
 - mod_06: CSS grid: griglie a colonne e layout bidimensionali asimmetrici.
 - mod_07: responsive design e media queries: menu ad hamburger per schermi inferiori a 768px e griglia di card social adattiva (desktop a 3 colonne, tablet a 2 colonne, mobile a colonna singola).
+
+### [06-javascript-basics](./06-javascript-basics/)
+- mod_02: identificatori, tipi primitivi (number, string, boolean), conversioni di tipo esplicite ed implicite, operatori di comparazione (loose vs strict equality).
+- mod_03: operatori logici (AND, OR, NOT), strutture di controllo condizionali (if-else, operatore ternario, switch) e cicli iterativi (while, for).
+- mod_04: funzioni dichiarative, parametri, funzioni di ordine superiore con callback sincrone ed asincrone (setTimeout), arrow functions e regole di visibilità/scope (block vs global).
+- mod_05: oggetti, accesso e iterazione per chiavi con for...in, passaggio per valore vs riferimento e tecniche di clonazione superficiale e profonda, Object.freeze, funzioni costruttrici e oggetti nidificati.
+- mod_06: array, indicizzazione, lunghezza, gestione di indici out of bounds, metodi mutabili e immutabili (push, pop, unshift, join, splice).
+- mod_07: esercizi di sintesi avanzata su array di oggetti, filtraggio e algoritmi (calcolo di numeri primi, estrazione di chiavi filtrate, aggregazioni statistiche su collezioni di dati).
 
 ### [08-js-dom](./08-js-dom/)
 - mod_01:
